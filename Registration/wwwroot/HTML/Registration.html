@@ -22,9 +22,12 @@
             width: 100%;
             border: 1px solid #999;
             border-collapse: collapse;
+            border-collapse: separate;
+            border-spacing: 2px;
         }
 
-        td, th {
+        table, th, td {
+            border: 3px double black;
             border: 1px solid #999;
             padding: 8px;
             vertical-align: middle;
@@ -53,29 +56,29 @@
             background-color: #ffffff;
         }
 
-            .main-form-table > tr > td,
-            .main-form-table > tbody > tr > td {
-                width: 50%;
-                padding: 10px;
-                vertical-align: top;
-                border: 1px solid #999;
-                background-color: #ffffff;
-            }
+        .main-form-table > tr > td,
+        .main-form-table > tbody > tr > td {
+            width: 50%;
+            padding: 10px;
+            vertical-align: top;
+            border: 1px solid #999;
+            background-color: #ffffff;
+        }
 
         .inner-table {
             width: 100%;
             border-collapse: collapse;
         }
 
-            .inner-table td {
-                padding: 12px 5px;
-                border: none;
-                border-bottom: 1px solid #eee;
-            }
+        .inner-table td {
+            padding: 12px 5px;
+            border: none;
+            border-bottom: 1px solid #eee;
+        }
 
-            .inner-table tr:last-child td {
-                border-bottom: none;
-            }
+        .inner-table tr:last-child td {
+            border-bottom: none;
+        }
 
         .label-cell {
             width: 30%;
@@ -103,9 +106,9 @@
             gap: 8px;
         }
 
-            .inline-fields select, .inline-fields input {
-                flex: 1;
-            }
+        .inline-fields select, .inline-fields input {
+            flex: 1;
+        }
 
         .dropdown-narrow {
             max-width: 80px;
@@ -116,9 +119,9 @@
             direction: rtl;
         }
 
-            .email-field::placeholder {
-                text-align: right;
-            }
+        .email-field::placeholder {
+            text-align: right;
+        }
 
         .gender-options {
             display: flex;
@@ -144,10 +147,10 @@
             margin-bottom: 15px;
         }
 
-            .checkbox-container a {
-                color: blue;
-                text-decoration: underline;
-            }
+        .checkbox-container a {
+            color: blue;
+            text-decoration: underline;
+        }
 
         .submit-btn {
             width: 100%;
@@ -160,9 +163,9 @@
             cursor: pointer;
         }
 
-            .submit-btn:hover {
-                background-color: #43a047;
-            }
+        .submit-btn:hover {
+            background-color: #43a047;
+        }
     </style>
 </head>
 <body>
